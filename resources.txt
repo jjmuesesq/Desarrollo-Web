@@ -18,3 +18,8 @@ COLORES
 Mayor performance para hojas de estilo
 
 <link rel="preload" href="css/styles.css" as="style">
+
+///////////////////////////////////////////////////////////
+rem => relativo al documento
+em => aplica el doble de tamaño de un elemento padre
+px => pixcel normal
