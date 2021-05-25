@@ -15,3 +15,6 @@ COLORES
 #ffc107
 
 ///////////////////////////////////////////////////////////
+Mayor performance para hojas de estilo
+
+<link rel="preload" href="css/styles.css" as="style">
