@@ -50,3 +50,13 @@ seudoelemento => propiedades personalizadas
 ///////////////////////////////////////////////////////////
 FUENTES => Google Fonts
 https://fonts.google.com/  krub = regular 400, bold 700
+
+///////////////////////////////////////////////////////////
+Normalize 
+Libreria para que todos los elementos se vean consistentes en los navegadores
+para mejor performance
+https://necolas.github.io/normalize.css/
+
+colocar las librerias en su propio archivo css
+
+////////////////////////////////////////////////////////////
