@@ -34,8 +34,8 @@ selectores
 - todos los hijos
 
 ///////////////////////////////////////////////////////////
-especificidad => Es como el navegador va a mostrar el CSS de acuerdo a que tan especifico
-es el Selector que hemos creado
+especificidad => Es como el navegador va a mostrar el CSS 
+de acuerdo a que tan especifico es el Selector que hemos creado
 
 Valores del css que seran en cuenta tomados por el navegador
 
@@ -43,3 +43,6 @@ h1.titulo span {
    font-size: 2rem; 
    color: blue;
 }
+
+///////////////////////////////////////////////////////////
+seudoelemento => propiedades personalizadas
