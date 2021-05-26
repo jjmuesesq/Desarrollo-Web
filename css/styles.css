@@ -13,6 +13,16 @@ body {
     font-size: 3.8rem;    
 }
 
-.titulo span {
-   font-size: 2rem; 
+span {
+    color: green!important;
 }
+
+h1.titulo span {
+   font-size: 2rem; 
+   color: blue;
+}
+
+.titulo span {
+    font-size: 2rem; 
+    color: red;
+ }
