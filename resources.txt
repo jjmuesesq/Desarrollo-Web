@@ -20,6 +20,15 @@ Mayor performance para hojas de estilo
 <link rel="preload" href="css/styles.css" as="style">
 
 ///////////////////////////////////////////////////////////
-rem => relativo al documento
+rem => relativo al documento 1rem = 10px
 em => aplica el doble de tamaño de un elemento padre
 px => pixcel normal
+
+///////////////////////////////////////////////////////////
+selectores 
+- selector de elemento
+- selector de clase
+- selector de ID
+- selector de atributo
+- combinación de descendentes
+- todos los hijos

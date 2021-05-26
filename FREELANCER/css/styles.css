@@ -8,12 +8,11 @@ body {
 }
 
 /**/
-h1 {
-    text-align: center;            
-    color: blue;
+.titulo {
+    text-align: center;
     font-size: 3.8rem;    
 }
 
-span {
+.titulo span {
    font-size: 2rem; 
 }
