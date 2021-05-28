@@ -64,3 +64,7 @@ Display online = elemento se posiciona a la derecha
 Display block = elemento uno debajo de otro (divs)
 
 ////////////////////////////////////////////////////////////
+pading = separacion donde termina el elemento hacia adentro
+margin = del limite del elemento hacia afuera cuanta separacion tendre
+
+/////////////////////////////////////////////////////////////
