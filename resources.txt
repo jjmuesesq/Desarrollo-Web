@@ -68,3 +68,13 @@ pading = separacion donde termina el elemento hacia adentro
 margin = del limite del elemento hacia afuera cuanta separacion tendre
 
 /////////////////////////////////////////////////////////////
+flex
+
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-around;
+
+flexbox = diseñado para alinear elementos en el diseño
+
+se pueden colocar y distribuir los elementos en una dirección
+fila (row) columna (column)
