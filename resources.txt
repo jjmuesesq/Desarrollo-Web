@@ -60,3 +60,7 @@ https://necolas.github.io/normalize.css/
 colocar las librerias en su propio archivo css
 
 ////////////////////////////////////////////////////////////
+Display online = elemento se posiciona a la derecha
+Display block = elemento uno debajo de otro (divs)
+
+////////////////////////////////////////////////////////////
