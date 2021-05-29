@@ -78,3 +78,28 @@ flexbox = diseñado para alinear elementos en el diseño
 
 se pueden colocar y distribuir los elementos en una dirección
 fila (row) columna (column)
+
+//////////////////////////////////////////////////////////////
+FORMAS DE ESCRIBIR CODIGO EN CSS
+
+BEM = bloques, elementos, modificadores
+.card {}
+.card__titulo {}
+.card__imagen {}
+.card__boton {}
+.card__boton--activo {}
+
+UTILITY FIRST
+.text-center {}
+.color-red-100 {}
+.bg.blue-200 {}
+.p-2 {}
+.m-2 {}
+
+MODULO
+.card {}
+.card h2 {}
+.card img {}
+.card a {} 
+
+//////////////////////////////////////////////////////////////

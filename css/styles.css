@@ -30,6 +30,7 @@ body {
 }
 
 .titulo span {
+    /* aplica un font-weight: de 700 */
     font-size: 2rem;     
 }
 
@@ -47,7 +48,7 @@ body {
 }
 
 .navegacion-principal {
-    padding: 1rem;
+    /* enlaces font-weight de 400 */
     display: flex;
     flex-direction: row;
     /* align-items: center; flex-end , flex-start*/
@@ -57,8 +58,18 @@ body {
 .navegacion-principal a {
     color: var(--blanco);
     text-decoration: none;
-    background-color: var(--primario);   
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    /* background-color: var(--primario);    */
 }
+
+/* Seudo clase */
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);   
+}
+
 /* span {
     color: green!important;
 }
