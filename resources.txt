@@ -103,3 +103,18 @@ MODULO
 .card a {} 
 
 //////////////////////////////////////////////////////////////
+Response Web Desing
+
+Diseños que deberan adaptarse a las interacciones del usuario y a la resolucion
+que utilizan. Deberan adaptarse a celulares, tablets, laptops, computadores de
+escritorio, televisores.
+
+MEDIA QUERIES
+@media (min-width:768px){
+
+}
+
+para configuración en Visual Studio Code
+CTRL SHIFT P / configure user snippets/ css.json
+
+https://responsively.app/ aplicativo para presentar varios dispositivos
