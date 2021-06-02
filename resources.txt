@@ -118,3 +118,15 @@ para configuración en Visual Studio Code
 CTRL SHIFT P / configure user snippets/ css.json
 
 https://responsively.app/ aplicativo para presentar varios dispositivos
+
+///////////////////////////////////////////////////////////////
+CSS BOX MODEL
+
+Todo en css es una caja, pero como sea esa caja depende de 4 cosas
+
+-css BOX
+tamaño de contenido
+tamaño de relleno(padding)
+tamaño del borde
+margen
+

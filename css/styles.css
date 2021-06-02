@@ -14,8 +14,12 @@
 /* Configuracion para manejo de rems*/
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     font-size: 16px; /*1rem = 10 px*/
     font-family: 'Krub', sans-serif;
@@ -92,6 +96,14 @@ body {
 .navegacion-principal a:hover {
     background-color: var(--primario);
     color: var(--oscuro);   
+}
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
 }
 
 /* body {
