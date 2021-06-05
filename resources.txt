@@ -130,3 +130,6 @@ tamaño de relleno(padding)
 tamaño del borde
 margen
 
+///////////////////////////////////////////////////////////////
+Posicion absoluta: el hijo se posiciona de forma absoluta 
+Posicion relativa: elemento padre siempre debe tener posicion relativa
