@@ -118,3 +118,36 @@ para configuración en Visual Studio Code
 CTRL SHIFT P / configure user snippets/ css.json
 
 https://responsively.app/ aplicativo para presentar varios dispositivos
+
+///////////////////////////////////////////////////////////////
+CSS BOX MODEL
+
+Todo en css es una caja, pero como sea esa caja depende de 4 cosas
+
+-css BOX
+tamaño de contenido
+tamaño de relleno(padding)
+tamaño del borde
+margen
+
+///////////////////////////////////////////////////////////////
+Posicion absoluta: el hijo se posiciona de forma absoluta 
+Posicion relativa: elemento padre siempre debe tener posicion relativa
+
+///////////////////////////////////////////////////////////////
+https://www.cssmatic.com/ para sombras
+https://caniuse.com/ soporte css
+
+///////////////////////////////////////////////////////////////
+CSS GRID 
+Permite definir la ubicacion y tamaño de los elementos de tu sitio web. El contenido se 
+agrupa dentro de una area definida.
+- utilizar para definir el layout de tu sitio web como pueden ser las columnas o contenedores
+de elementos
+
+
+FLEXBOX 
+El contenido crece automaticamente
+- utilizar para la alieacion o distribucion de los elementos que estaran dentro
+de contenedores
+
