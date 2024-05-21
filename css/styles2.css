@@ -13,4 +13,10 @@ body{
 
 .titulo span {
     font-size: 2rem;
+    color: red;
+}
+
+h1.titulo span {
+    font-size: 2rem;
+    color: blue;
 }
