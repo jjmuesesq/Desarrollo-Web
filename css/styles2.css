@@ -12,6 +12,7 @@ html {
 body{
     font-size: 16px; /* 1rem = 10px*/ 
     font-family: 'Krub', sans-serif;
+    background-color: yellow;
 }
 
 .titulo {
@@ -53,4 +54,17 @@ body{
     background-color: var(--primario);
     color: var(--oscuro);
     font-weight: 700; /*bold*/
+}
+
+
+@media (min-width: 480px ) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 768px ) {
+    body {
+        background-color: green;
+    }
 }
