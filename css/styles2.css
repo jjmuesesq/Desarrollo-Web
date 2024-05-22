@@ -34,7 +34,7 @@ body{
 }
 
 .navegacion-principal {
-    padding: 1rem;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,4 +43,14 @@ body{
 .navegacion-principal a {
     color: var(--blanco);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700; /*bold*/
+    padding: 1rem;
+}
+
+/* evento de CSS*/
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+    font-weight: 700; /*bold*/
 }
