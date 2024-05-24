@@ -146,3 +146,16 @@ h1,h2,h3 {
     display: flex;
     align-items: flex-end;
 }
+
+/* Servicios */
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid; /*Agrega las propiedades de CSS grid, define la ubicacion y tamaño de los elementos en CSS*/
+        grid-template-columns: repeat(3, 1fr); /* 33% */
+        /* grid-template-rows: 200px 800px; */
+    
+        /* grid: 200px 800px / 300px 300px; */
+    } 
+}
+
