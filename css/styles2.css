@@ -153,7 +153,7 @@ h1,h2,h3 {
     .servicios {
         display: grid; /*Agrega las propiedades de CSS grid, define la ubicacion y tamaño de los elementos en CSS*/
         grid-template-columns: repeat(3, 1fr); /* 33% */
-        /* grid-template-rows: 200px 800px; */
+        column-gap: 1rem;
     
         /* grid: 200px 800px / 300px 300px; */
     } 
