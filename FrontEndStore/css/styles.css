@@ -25,7 +25,7 @@ html {
 body {
     background-color: var(--primario);
     font-size: 1.6rem;
-    line-height: 1.5;
+    line-height: 1.5; /* interlineado la base de la fuente*/
 }
 
 p {
@@ -43,8 +43,8 @@ img {
 }
 
 .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
+    max-width: 120rem; /* 1200px */
+    margin: 0 auto; /* centrar el contenido en el contenedor */
 }
 
 h1,h2,h3 {
@@ -54,7 +54,7 @@ h1,h2,h3 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 4rem; /* tamaño individual */
 }
 
 h2 {
@@ -62,5 +62,5 @@ h2 {
 }
 
 h3 {
-    font-size: 2.4rem;
+    font-size: 2.4rem; /* 24 px */
 }
