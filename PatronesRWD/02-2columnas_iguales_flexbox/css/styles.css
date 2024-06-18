@@ -39,3 +39,15 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .dos-columnas {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem; /* aun falta soporte en safari*/
+    }
+
+    /* .entrada-blog { /* elemento hijo */
+        /* flex: 0 0 calc(50% - 1rem); factor de crecimiento, factor hacer mas pequeño, */
+    /* } */ 
+}
