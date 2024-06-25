@@ -26,8 +26,9 @@ body {
 
 /* Globales */
 .contenedor {
-    max-width: 120rem;
-    width: 90%;
+    /* max-width: 120rem;  hacen la misma funcionalidad */
+    /* width: 90%; no se va a las orillas los elementos */
+    width: min(90%, 120rem); /* aplica el valor minimo */
     margin: 0 auto;
 }
 
@@ -74,7 +75,7 @@ img {
 }
 
 /* header  */
-.header{
+.header {
     background-image: url(../img/banner.jpg);
     height: 60rem;
     background-size: cover; /*cubra toda el area disponible */
@@ -82,16 +83,20 @@ img {
     background-position: center center;/* que parte de la imagen se debe posicionar */
 }
 
-.header__texto{
+.header__texto {
     text-align: center;
     color: var(--blanco);
     margin-top: 5rem;
 }
 
 @media (min-width: 768px) {
-    .header__texto{
+    .header__texto {
         margin-top: 15rem;
     }
+}
+
+.barra {
+    padding: 4rem;
 }
 
 @media (min-width: 768px) {
@@ -103,15 +108,15 @@ img {
     }
 }
 
-.logo{
+.logo {
     color: var(--blanco);
 }
 
-.logo__nombre{
+.logo__nombre {
     font-weight: 400;
 }
 
-.logo__bold{
+.logo__bold {
     font-weight: 700;
 }
 
@@ -122,7 +127,7 @@ img {
     }
 }
 
-.navegacion__enlace{
+.navegacion__enlace {
     display: block;
     text-align: center;
     font-size: 1.8rem;
@@ -132,24 +137,24 @@ img {
 /* blog  */
 @media (min-width: 768px) {
     
-    .contenido-principal{
+    .contenido-principal {
         display: grid;
         grid-template-columns: 2fr 1fr;
         column-gap: 4rem;
     }
 }
 
-.entrada{
+.entrada {
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
 }
 
-.entrada:last-of-type{
+.entrada:last-of-type {
     border: none;
     margin-bottom: 0;
 }
 
-.boton{
+.boton {
     display: block;
     font-family: var(--fuenteHeading);
     color: var(--blanco);
@@ -162,17 +167,17 @@ img {
 }
 
 @media (min-width: 768px) {
-    .boton{
+    .boton {
         display: inline-block;
     }
 }
 
 /* modificadores de boton */
-.boton--primario{
+.boton--primario {
     background-color: var(--negro);
 }
 
-.boton--secundario{
+.boton--secundario {
     background-color: var(--primario);
 }
 
@@ -181,25 +186,32 @@ img {
     list-style: none;
 }
 
-.widget-curso{
+.widget-curso {
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
 }
 
-.widget-curso:last-of-type{
+.widget-curso:last-of-type {
     border: none;
     margin-bottom: 0;
 }
 
-.widget-curso__label{
+.widget-curso__label {
     font-family: var(--fuenteHeading);
     font-weight: bold;
 }
 
-.widget-curso__info{
+.widget-curso__info {
     font-weight: normal;
 }
 .widget-curso__label,
-.widget-curso__info{
+.widget-curso__info {
     font-size: 2rem;
+}
+
+/* footer  */
+.footer {
+    background-color: var(--negro);
+    /* padding-bottom: 3rem; */
+    margin-top: 4rem;
 }
